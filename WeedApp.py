@@ -481,6 +481,7 @@ class MyWeed:
             days_smoked_lbl = ttk.Label(stats, text="Total Days Smoked:\n" + str(days_smoked),
                                         style='buy.TLabel')
             days_smoked_lbl.grid(row=3, column=1, sticky='')
+            days_smoked_lbl.after(5000, days_smoked_lbl.destroy)
 
         # settings
         stats.title("{}'s Weed Statistics".format(self.user_entry.get()))
