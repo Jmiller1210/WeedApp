@@ -1,2 +1,2 @@
-# bookish-fiesta
+# WeedApp
 Weed App
