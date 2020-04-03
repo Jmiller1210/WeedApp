@@ -1,7 +1,8 @@
 # WeedApp
 This python program allows you to monitor usage statistics
 
-Git installation:
+
+# Git installation:
 
 # clone the repo
 $ git clone https://github.com/Jmiller1210/WeedApp.git
@@ -10,7 +11,7 @@ $ git clone https://github.com/Jmiller1210/WeedApp.git
 $ cd WeedApp
 
 # install the requirements
-$ pip3 install -r requirements.txt
+$ pip3 install -r requirements
 
 # Usage 
 python WeedApp.py
